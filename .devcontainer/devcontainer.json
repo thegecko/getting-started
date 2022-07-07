@@ -9,7 +9,8 @@
 		"marus25.cortex-debug",
 		"vsciot-vscode.vscode-dtdl",
 		"xaver.clang-format",
-		"ms-azuretools.vscode-docker"
+		"ms-azuretools.vscode-docker",
+		"arm.device-manager"
 	],
 	"remoteUser": "vscode",
 	"postCreateCommand": "git submodule update --recursive --init"

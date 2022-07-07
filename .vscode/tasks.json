@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Flash Device",
+            "type": "embedded-debug.flash",
+            "serialNumber": "${command:device-manager.getSerialNumber}",
+            "program": "${workspaceFolder}/STMicroelectronics/B-L475E-IOT01A/build/app/stm32l475_azure_iot.elf",
+            "cmsisPack": "${workspaceFolder}/packs/Keil.STM32L4xx_DFP.2.6.1.pack",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
